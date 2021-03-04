@@ -1,0 +1,99 @@
+/* .phprofil{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    background-color: gray;
+}
+
+.pseudo{
+    border-radius: 5%;
+    border-color: black;
+    color: gold;
+    height: 100px;
+    width:300px;
+    position: relative;
+    left: 175px;
+    top: 55px;
+}
+.actfav{
+    border-radius: 5%;
+    border-color: gold;
+    height: 100px;
+    width:300px;
+    background-color: black;
+    opacity: 0.5;
+    color: gold;
+}
+.filmfav{
+    border-radius: 5%;
+    border-color: gold;
+    height: 100px;
+    width:300px;
+    background-color: black;
+    opacity: 0.5;
+    color: gold;
+}
+.vuerec{
+    border-radius: 5%;
+    border-color: gold;
+    height: 100px;
+    width:300px;
+    background-color: black;
+    opacity: 0.5;
+    color: gold;
+}
+.maliste{
+    border-radius: 5%;
+    border-color: gold;
+    height: 100px;
+    width:300px;
+    background-color: black;
+    opacity: 0.5;
+    color: gold;
+}
+#profile{
+   
+   
+    padding-bottom: 100px;
+    padding-top: 100px;
+    flex-direction: column;
+    position: relative;
+   
+   
+   
+    
+}
+h3{
+    position: relative;
+    top:10px;
+    text-align: center;
+    
+}
+.container{
+    position:relative;
+    left: 38%
+    
+} */
+.background{
+     position: absolute;
+     width: 100%;
+     height: auto;
+      opacity: 0.75;
+}
+.container{
+    position: relative;
+    left:27%;
+}
+.photo{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: gold;
+    margin-bottom: 5px;
+    position: relative;
+    left:7%;
+    display: inline-block;
+}
+.profil{
+    width: 100%;
+}
