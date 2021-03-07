@@ -12,58 +12,24 @@
 </head>
 
 <body>
-   <img class="background" src="image/cine.jpg" alt="" srcset="">
-   <!-- <div>
-      <div id="profile">
-
-         <div class="container">
-
-
-            <div class="phprofil">
-
-               <div class="pseudo">
-                  <ul type="none">
-                     <li> Nom</li>
-                     <li> Prénom</li>
-                     <li> E-mail</li>
-                  </ul>
-               </div>
-            <!-- </div>
-            <div class="actfav">
-               <h3> <u> Acteur et Actrice </u> </h3>
-               <ul type="disk">
-                  <li> Acteur favori</li>
-                  <li> Actrice favorite</li>
-               </ul>
-            </div>
-            <div class="filmfav">
-               <h3> <u> Films favoris </u> </h3>
-               <ul type="disk">
-                  <li> </li>
-                  <li> </li>
-                  <li> </li>
-               </ul>
-            </div>
-            <div class="vuerec">
-               <h3> <u> Vue récemment </u> </h3>
-               <ul type="disk">
-                  <li> </li>
-                  <li> </li>
-                  <li> </li>
-               </ul>
-            </div>
-            <div class="maliste">
-               <h3> <u> Ma liste à voir </u> </h3>
-               <ul type="disk">
-                  <li> </li>
-                  <li> </li>
-                  <li> </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div> --> --> -->
-
+<header>
+   <nav class="navbar navbar-light bg-light">
+   <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+   </nav>
+</header>
    <div class="container d-flex flex-column ">
 
       <div class="mt-2 profil">
@@ -71,39 +37,101 @@
 
          </div>
          <div class="card border-warning mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body text-warning">
-               <h5 class="card-title">Warning card title</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-            </div>
+            <div class="card-header text-center">Identité</div>
+            <div class="card-body text-secondary">
+               <ul class="card-text">
+                  <li>Nom: T </li>
+                  <li>Prénom: Nicolas </li>
+                  <li>E-mail: ?? </li>
+               </ul>
+            </div> 
          </div>
-         <div class="card border-warning mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body text-warning">
-               <h5 class="card-title">Warning card title</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-            </div>
+      </div>
+      <div class="card border-warning mb-3" style="max-width: 18rem;">
+         <div class="card-header text-center">Acteur et actrice</div>
+         <div class="card-body text-secondary">
+            <ul class="card-text">
+               <li>Acteur: Bruce Lee </li>
+               <li>Actrice: Gina Carano </li>
+            </ul>
+            
          </div>
-         <div class="card border-warning mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body text-warning">
-               <h5 class="card-title">Warning card title</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-            </div>
+      </div>
+      <div class="card border-warning mb-3" style="max-width: 18rem;">
+         <div class="card-header text-center">Films favoris</div>
+         <div class="card-body text-secondary">
+            <ul class="card-text">
+               <li>Home Front </li>
+               <li>Out of control </li>
+               <li>Terminagolf </li>
+            </ul>
          </div>
-         <div class="card border-warning mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body text-warning">
-               <h5 class="card-title">Warning card title</h5>
-               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
-            </div>
+      </div>
+      <div class="card border-warning mb-3" style="max-width: 18rem;">
+         <div class="card-header text-center">Vue recemment</div>
+         <div class="card-body text-secondary">
+            <ul class="card-text">
+               <li>Prof poid lours </li>
+               <li>Terminator </li>
+               <li>Hulk </li>
+            </ul>
+         </div>
+      </div>
+      <div class="card border-warning mb-3" style="max-width: 18rem;">
+         <div class="card-header text-center">Films à voir</div>
+         <div class="card-body text-secondary">
+            <ul class="card-text">
+               <li>Fast n'furious 9 </li>
+               <li>Equalizer </li>
+               <li>2 cow boys à New York </li>
+            </ul>
          </div>
       </div>
    </div>
+   </div>
+   <footer class="footer">
+      <div class="d-flex">
+      <div class="container bottom_border">
+         <div class="row">
+         <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+         <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+         <!--headin5_amrc-->
+         <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+         <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+         <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+         <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+         
+         
+         </div>
+         <div class=" col-sm-4 col-md  col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+            <li><a href="http://webenlance.com">Image Rectoucing</a></li>
+            <li><a href="http://webenlance.com">Clipping Path</a></li>
+            <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+            <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+            <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+            <li><a href="http://webenlance.com">Image Cropping</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+            </div>
+            <div class=" col-sm-4 col-md  col-6 col">
+               <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+               <!--headin5_amrc-->
+               <ul class="footer_ul_amrc">
+               <li><a href="http://webenlance.com">Remove Background</a></li>
+               <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+               <li><a href="http://webenlance.com">Logo Design</a></li>
+               <li><a href="http://webenlance.com">Vectorization</a></li>
+               <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+               <li><a href="http://webenlance.com">Image Cropping</a></li>
+               </ul>
+               <!--footer_ul_amrc ends here-->
+               </div>
+            </div>
+   </footer>
+   
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
